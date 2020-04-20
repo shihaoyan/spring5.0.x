@@ -21,5 +21,6 @@ public class App_Main {
 		CityService cityService = acac.getBean(CityService.class);
 		cityService.queryCity();
 		System.out.println(cityService instanceof CityService);
+		//测试github
 	}
 }
